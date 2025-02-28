@@ -1,6 +1,7 @@
 import React from "react";
 import img from "./assets/profile.png";
 import ProfileCard from "./Components/ProfileCard";
+import Timeline from "./Components/Timeline";
 
 const App = () => {
   const handleEdit = () => {
@@ -25,13 +26,16 @@ const App = () => {
   ];
 
   return (
-    <ProfileCard
-      profileImg={img}
-      name="Peter Nguyen"
-      role="Author"
-      details={profileDetails}
-      onEdit={handleEdit}
-    />
+    <div>
+      {/* <ProfileCard
+        profileImg={img}
+        name="Peter Nguyen"
+        role="Author"
+        details={profileDetails}
+        onEdit={handleEdit}
+      /> */}
+      <Timeline />
+    </div>
   );
 };
 
