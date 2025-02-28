@@ -2,6 +2,9 @@ import React from "react";
 import img from "./assets/profile.png";
 import ProfileCard from "./Components/ProfileCard";
 import Timeline from "./Components/Timeline";
+import OrderDetailedSummary from "./Components/OrderDetailedSummary";
+import BulletListAlt from "./Components/BulletListAlt";
+import BulletLIstStepper from "./Components/BulletLIstStepper";
 
 const App = () => {
   const handleEdit = () => {
@@ -34,7 +37,10 @@ const App = () => {
         details={profileDetails}
         onEdit={handleEdit}
       /> */}
-      <Timeline />
+      {/* <Timeline /> */}
+      {/* <OrderDetailedSummary /> */}
+      {/* <BulletListAlt /> */}
+      <BulletLIstStepper />
     </div>
   );
 };
