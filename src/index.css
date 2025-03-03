@@ -75,3 +75,27 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background:#D9D9D9; 
+  border-radius: 10px;
+}
+
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #A9A9A9; 
+  border-radius: 10px;
+  border: 2px solid #D9D9D9; 
+  height: 10px !important; 
+  min-height: 10px !important; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #818589; 
+}
