@@ -5,7 +5,10 @@
 // import BulletListAlt from "./Components/BulletListAlt";
 // import { Edit } from "lucide-react";
 // import BulletLIstStepper from "./Components/BulletLIstStepper";
-import EditInformation from "./Components/EditInformation";
+// import EditInformation from "./Components/EditInformation";
+
+// import EditContactInfo from "./Components/EditContactInfo";
+import EditLocationInformation from "./Components/EditLocationInformation";
 
 const App = () => {
   // const handleEdit = () => {
@@ -42,7 +45,9 @@ const App = () => {
       <OrderDetailedSummary />
       <BulletListAlt /> */}
       {/* <BulletLIstStepper /> */}
-      <EditInformation />
+      {/* <EditInformation /> */}
+      <EditLocationInformation />
+      {/* <EditContactInfo /> */}
     </div>
   );
 };
